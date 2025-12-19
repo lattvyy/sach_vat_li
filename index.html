@@ -59,6 +59,34 @@
     .app{flex-direction:column}
     .viewer-wrap{flex-direction:column}
     .left-col{width:100%}
+  @media (max-width: 768px) {
+
+  body {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .content {
+    width: 100%;
+    padding: 12px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  iframe {
+    width: 100%;
+    height: 70vh;
+  }
+
+}
   }
 </style>
 </head>
@@ -310,4 +338,5 @@ resetView();
 </script>
 </body>
 </html>
+
 
